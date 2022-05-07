@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { Header } from '../components/Header';
-import { Task, TasksList } from '../components/TasksList';
+import { TasksList } from '../components/TasksList';
 import { TodoInput } from '../components/TodoInput';
 
 interface Task {
